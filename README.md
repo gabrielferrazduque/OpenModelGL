@@ -1,6 +1,6 @@
 # OpenModelGL
 OpenModelGL
-ModelGL.cpp of your modelview matrix project 
+OpenModelGL.cpp of your modelview matrix project 
 matModel.rotateZ(modelAngle[2]);
 matModel.rotateY(modelAngle[1]);
 matModel.rotateX(modelAngle[0]);
