@@ -184,8 +184,55 @@ function rotacionar(x, y, radianos) {
     return {
         x: parseInt(x * coseno + y * seno),
         y: parseInt(y * coseno - x * seno), 
+    }    }export default class App extends Component {
+  state = { retorno: false }
+
+  async function req(){
+     //requisicao feita aqui com retorno
+     //.then seta retorno = true
+  }
+  render() {
+    if(!this.state.retorno){
+       //se o retorno for false ele retorna qualquer coisa que você queira
+       return({/* qualquer coisa aqui */});
     }
- return }
+    //se for true ele vai retornar o render normal
+    return();
+  }
+}
+export default class App extends Component {
+
+     state = { requisicao: null }
+
+     funcaoDeRequisicao = async () => {
+          //aqui faz a requisicao e seta o estado
+     }
+
+     return requisicao && <Text>TESTE</Text>
+
+}
+ return  
+
+export default class App extends Component {
+  state = { retorno: false }
+
+  async function req(){
+     //requisicao feita aqui com retorno
+     //.then seta retorno = true
+  }
+  render() {
+    if(!this.state.retorno){
+       //se o retorno for false ele retorna qualquer coisa que você queira
+       return(){/* qualquer coisa aqui */};
+    }
+    //se for true ele vai retornar o render normal
+    return();
+  }
+}
+
+
+ return 
+
 
  
 
